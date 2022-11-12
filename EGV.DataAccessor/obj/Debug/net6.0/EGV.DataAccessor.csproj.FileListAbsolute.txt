@@ -1,0 +1,14 @@
+C:\Users\van.nguyenngocgia\OneDrive - NASHTECH\Desktop\EGV\EGV.DataAccessor\bin\Debug\net6.0\EGV.DataAccessor.deps.json
+C:\Users\van.nguyenngocgia\OneDrive - NASHTECH\Desktop\EGV\EGV.DataAccessor\bin\Debug\net6.0\EGV.DataAccessor.runtimeconfig.json
+C:\Users\van.nguyenngocgia\OneDrive - NASHTECH\Desktop\EGV\EGV.DataAccessor\bin\Debug\net6.0\EGV.DataAccessor.dll
+C:\Users\van.nguyenngocgia\OneDrive - NASHTECH\Desktop\EGV\EGV.DataAccessor\bin\Debug\net6.0\EGV.DataAccessor.pdb
+C:\Users\van.nguyenngocgia\OneDrive - NASHTECH\Desktop\EGV\EGV.DataAccessor\obj\Debug\net6.0\EGV.DataAccessor.csproj.AssemblyReference.cache
+C:\Users\van.nguyenngocgia\OneDrive - NASHTECH\Desktop\EGV\EGV.DataAccessor\obj\Debug\net6.0\EGV.DataAccessor.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\van.nguyenngocgia\OneDrive - NASHTECH\Desktop\EGV\EGV.DataAccessor\obj\Debug\net6.0\EGV.DataAccessor.AssemblyInfoInputs.cache
+C:\Users\van.nguyenngocgia\OneDrive - NASHTECH\Desktop\EGV\EGV.DataAccessor\obj\Debug\net6.0\EGV.DataAccessor.AssemblyInfo.cs
+C:\Users\van.nguyenngocgia\OneDrive - NASHTECH\Desktop\EGV\EGV.DataAccessor\obj\Debug\net6.0\EGV.DataAccessor.csproj.CoreCompileInputs.cache
+C:\Users\van.nguyenngocgia\OneDrive - NASHTECH\Desktop\EGV\EGV.DataAccessor\obj\Debug\net6.0\EGV.DataAccessor.dll
+C:\Users\van.nguyenngocgia\OneDrive - NASHTECH\Desktop\EGV\EGV.DataAccessor\obj\Debug\net6.0\refint\EGV.DataAccessor.dll
+C:\Users\van.nguyenngocgia\OneDrive - NASHTECH\Desktop\EGV\EGV.DataAccessor\obj\Debug\net6.0\EGV.DataAccessor.pdb
+C:\Users\van.nguyenngocgia\OneDrive - NASHTECH\Desktop\EGV\EGV.DataAccessor\obj\Debug\net6.0\EGV.DataAccessor.genruntimeconfig.cache
+C:\Users\van.nguyenngocgia\OneDrive - NASHTECH\Desktop\EGV\EGV.DataAccessor\obj\Debug\net6.0\ref\EGV.DataAccessor.dll
