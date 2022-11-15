@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\van.nguyenngocgia\\OneDrive - NASHTECH\\Desktop\\EGV\\EGV.Contracts\\EGV.Contracts.csproj": {}
+    "C:\\Users\\van.nguyenngocgia\\OneDrive - NASHTECH\\Desktop\\EGV\\EGV.Contracts\\EGV.Contracts.csproj": {}
   },
   "projects": {
-    "c:\\Users\\van.nguyenngocgia\\OneDrive - NASHTECH\\Desktop\\EGV\\EGV.Contracts\\EGV.Contracts.csproj": {
+    "C:\\Users\\van.nguyenngocgia\\OneDrive - NASHTECH\\Desktop\\EGV\\EGV.Contracts\\EGV.Contracts.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\van.nguyenngocgia\\OneDrive - NASHTECH\\Desktop\\EGV\\EGV.Contracts\\EGV.Contracts.csproj",
+        "projectUniqueName": "C:\\Users\\van.nguyenngocgia\\OneDrive - NASHTECH\\Desktop\\EGV\\EGV.Contracts\\EGV.Contracts.csproj",
         "projectName": "EGV.Contracts",
-        "projectPath": "c:\\Users\\van.nguyenngocgia\\OneDrive - NASHTECH\\Desktop\\EGV\\EGV.Contracts\\EGV.Contracts.csproj",
+        "projectPath": "C:\\Users\\van.nguyenngocgia\\OneDrive - NASHTECH\\Desktop\\EGV\\EGV.Contracts\\EGV.Contracts.csproj",
         "packagesPath": "C:\\Users\\van.nguyenngocgia\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\van.nguyenngocgia\\OneDrive - NASHTECH\\Desktop\\EGV\\EGV.Contracts\\obj\\",
+        "outputPath": "C:\\Users\\van.nguyenngocgia\\OneDrive - NASHTECH\\Desktop\\EGV\\EGV.Contracts\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\van.nguyenngocgia\\AppData\\Roaming\\NuGet\\NuGet.Config"

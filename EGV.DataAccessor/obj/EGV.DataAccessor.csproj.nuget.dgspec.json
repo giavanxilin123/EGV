@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\van.nguyenngocgia\\OneDrive - NASHTECH\\Desktop\\EGV\\EGV.DataAccessor\\EGV.DataAccessor.csproj": {}
+    "C:\\Users\\van.nguyenngocgia\\OneDrive - NASHTECH\\Desktop\\EGV\\egv.dataaccessor\\EGV.DataAccessor.csproj": {}
   },
   "projects": {
-    "c:\\Users\\van.nguyenngocgia\\OneDrive - NASHTECH\\Desktop\\EGV\\EGV.DataAccessor\\EGV.DataAccessor.csproj": {
+    "C:\\Users\\van.nguyenngocgia\\OneDrive - NASHTECH\\Desktop\\EGV\\egv.dataaccessor\\EGV.DataAccessor.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\van.nguyenngocgia\\OneDrive - NASHTECH\\Desktop\\EGV\\EGV.DataAccessor\\EGV.DataAccessor.csproj",
+        "projectUniqueName": "C:\\Users\\van.nguyenngocgia\\OneDrive - NASHTECH\\Desktop\\EGV\\egv.dataaccessor\\EGV.DataAccessor.csproj",
         "projectName": "EGV.DataAccessor",
-        "projectPath": "c:\\Users\\van.nguyenngocgia\\OneDrive - NASHTECH\\Desktop\\EGV\\EGV.DataAccessor\\EGV.DataAccessor.csproj",
+        "projectPath": "C:\\Users\\van.nguyenngocgia\\OneDrive - NASHTECH\\Desktop\\EGV\\egv.dataaccessor\\EGV.DataAccessor.csproj",
         "packagesPath": "C:\\Users\\van.nguyenngocgia\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\van.nguyenngocgia\\OneDrive - NASHTECH\\Desktop\\EGV\\EGV.DataAccessor\\obj\\",
+        "outputPath": "C:\\Users\\van.nguyenngocgia\\OneDrive - NASHTECH\\Desktop\\EGV\\egv.dataaccessor\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\van.nguyenngocgia\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -65,6 +65,14 @@
               "suppressParent": "All",
               "target": "Package",
               "version": "[7.0.0, )"
+            },
+            "Microsoft.Extensions.Configuration.Json": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.1, )"
             }
           },
           "imports": [

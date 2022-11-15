@@ -1,0 +1,12 @@
+C:\Users\van.nguyenngocgia\OneDrive - NASHTECH\Desktop\EGV\EGV.Contracts\bin\Debug\net6.0\EGV.Contracts.deps.json
+C:\Users\van.nguyenngocgia\OneDrive - NASHTECH\Desktop\EGV\EGV.Contracts\bin\Debug\net6.0\EGV.Contracts.dll
+C:\Users\van.nguyenngocgia\OneDrive - NASHTECH\Desktop\EGV\EGV.Contracts\bin\Debug\net6.0\EGV.Contracts.pdb
+C:\Users\van.nguyenngocgia\OneDrive - NASHTECH\Desktop\EGV\EGV.Contracts\obj\Debug\net6.0\EGV.Contracts.csproj.AssemblyReference.cache
+C:\Users\van.nguyenngocgia\OneDrive - NASHTECH\Desktop\EGV\EGV.Contracts\obj\Debug\net6.0\EGV.Contracts.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\van.nguyenngocgia\OneDrive - NASHTECH\Desktop\EGV\EGV.Contracts\obj\Debug\net6.0\EGV.Contracts.AssemblyInfoInputs.cache
+C:\Users\van.nguyenngocgia\OneDrive - NASHTECH\Desktop\EGV\EGV.Contracts\obj\Debug\net6.0\EGV.Contracts.AssemblyInfo.cs
+C:\Users\van.nguyenngocgia\OneDrive - NASHTECH\Desktop\EGV\EGV.Contracts\obj\Debug\net6.0\EGV.Contracts.csproj.CoreCompileInputs.cache
+C:\Users\van.nguyenngocgia\OneDrive - NASHTECH\Desktop\EGV\EGV.Contracts\obj\Debug\net6.0\EGV.Contracts.dll
+C:\Users\van.nguyenngocgia\OneDrive - NASHTECH\Desktop\EGV\EGV.Contracts\obj\Debug\net6.0\refint\EGV.Contracts.dll
+C:\Users\van.nguyenngocgia\OneDrive - NASHTECH\Desktop\EGV\EGV.Contracts\obj\Debug\net6.0\EGV.Contracts.pdb
+C:\Users\van.nguyenngocgia\OneDrive - NASHTECH\Desktop\EGV\EGV.Contracts\obj\Debug\net6.0\ref\EGV.Contracts.dll

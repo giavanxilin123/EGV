@@ -1,0 +1,17 @@
+C:\Users\van.nguyenngocgia\OneDrive - NASHTECH\Desktop\EGV\EGV.Business\bin\Debug\net6.0\EGV.Business.deps.json
+C:\Users\van.nguyenngocgia\OneDrive - NASHTECH\Desktop\EGV\EGV.Business\bin\Debug\net6.0\EGV.Business.dll
+C:\Users\van.nguyenngocgia\OneDrive - NASHTECH\Desktop\EGV\EGV.Business\bin\Debug\net6.0\EGV.Business.pdb
+C:\Users\van.nguyenngocgia\OneDrive - NASHTECH\Desktop\EGV\EGV.Business\bin\Debug\net6.0\EGV.Contracts.dll
+C:\Users\van.nguyenngocgia\OneDrive - NASHTECH\Desktop\EGV\EGV.Business\bin\Debug\net6.0\EGV.DataAccessor.dll
+C:\Users\van.nguyenngocgia\OneDrive - NASHTECH\Desktop\EGV\EGV.Business\bin\Debug\net6.0\EGV.DataAccessor.pdb
+C:\Users\van.nguyenngocgia\OneDrive - NASHTECH\Desktop\EGV\EGV.Business\bin\Debug\net6.0\EGV.Contracts.pdb
+C:\Users\van.nguyenngocgia\OneDrive - NASHTECH\Desktop\EGV\EGV.Business\obj\Debug\net6.0\EGV.Business.csproj.AssemblyReference.cache
+C:\Users\van.nguyenngocgia\OneDrive - NASHTECH\Desktop\EGV\EGV.Business\obj\Debug\net6.0\EGV.Business.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\van.nguyenngocgia\OneDrive - NASHTECH\Desktop\EGV\EGV.Business\obj\Debug\net6.0\EGV.Business.AssemblyInfoInputs.cache
+C:\Users\van.nguyenngocgia\OneDrive - NASHTECH\Desktop\EGV\EGV.Business\obj\Debug\net6.0\EGV.Business.AssemblyInfo.cs
+C:\Users\van.nguyenngocgia\OneDrive - NASHTECH\Desktop\EGV\EGV.Business\obj\Debug\net6.0\EGV.Business.csproj.CoreCompileInputs.cache
+C:\Users\van.nguyenngocgia\OneDrive - NASHTECH\Desktop\EGV\EGV.Business\obj\Debug\net6.0\EGV.Business.csproj.CopyComplete
+C:\Users\van.nguyenngocgia\OneDrive - NASHTECH\Desktop\EGV\EGV.Business\obj\Debug\net6.0\EGV.Business.dll
+C:\Users\van.nguyenngocgia\OneDrive - NASHTECH\Desktop\EGV\EGV.Business\obj\Debug\net6.0\refint\EGV.Business.dll
+C:\Users\van.nguyenngocgia\OneDrive - NASHTECH\Desktop\EGV\EGV.Business\obj\Debug\net6.0\EGV.Business.pdb
+C:\Users\van.nguyenngocgia\OneDrive - NASHTECH\Desktop\EGV\EGV.Business\obj\Debug\net6.0\ref\EGV.Business.dll
