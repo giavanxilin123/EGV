@@ -20,6 +20,8 @@ namespace EGV.Business
         {
             CreateMap<Category, CategoryCreateDto>()
                 .ReverseMap();
+            CreateMap<CategoryDto, Category>()
+                .ReverseMap();
         }
     }
 }

@@ -1,6 +1,5 @@
 using EGV.Business.Interfaces;
 using EGV.Contracts.Dtos.Category;
-using EGV.Contracts.Utils;
 using Microsoft.AspNetCore.Mvc;
 
 namespace EGV.Presentation.Controllers
@@ -18,8 +17,7 @@ namespace EGV.Presentation.Controllers
         [HttpPost]
         public async Task<IActionResult> AddCategory(CategoryCreateDto categoryCreateDto)
         {
-            var categoryId = Generate.GenerateCategoryId(categoryCreateDto.CategoryName);
-            var categoryAdd = _categoryService.AddAsync(categoryCreateDto);
+            var categoryAdd = await _categoryService.AddAsync(categoryCreateDto);
             return Ok(categoryAdd);
         }
     }

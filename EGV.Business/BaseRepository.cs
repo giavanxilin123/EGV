@@ -19,19 +19,16 @@ namespace EGV.Business
         public async Task<T> Add(T entity)
         {
             await _dbContext.Set<T>().AddAsync(entity);
-            await _dbContext.SaveChangesAsync();
             return entity;
         }
         public async Task<T> Update(T entity)
         {
             _dbContext.Entry(entity).CurrentValues.SetValues(entity);
-            await _dbContext.SaveChangesAsync();
             return entity;
         }
         public async Task<T> Delete(T entity)
         {
             _dbContext.Set<T>().Remove(entity);
-            await _dbContext.SaveChangesAsync();
             return entity;
         }
         public async Task<T> GetByAsync( Expression<Func<T, bool>> filter = null, string includeProperties = "")

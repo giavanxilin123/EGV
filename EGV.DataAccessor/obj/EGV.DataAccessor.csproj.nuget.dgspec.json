@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\van.nguyenngocgia\\OneDrive - NASHTECH\\Desktop\\EGV\\egv.dataaccessor\\EGV.DataAccessor.csproj": {}
+    "C:\\Users\\van.nguyenngocgia\\OneDrive - NASHTECH\\Desktop\\EGV\\EGV.DataAccessor\\EGV.DataAccessor.csproj": {}
   },
   "projects": {
-    "C:\\Users\\van.nguyenngocgia\\OneDrive - NASHTECH\\Desktop\\EGV\\egv.dataaccessor\\EGV.DataAccessor.csproj": {
+    "C:\\Users\\van.nguyenngocgia\\OneDrive - NASHTECH\\Desktop\\EGV\\EGV.DataAccessor\\EGV.DataAccessor.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\van.nguyenngocgia\\OneDrive - NASHTECH\\Desktop\\EGV\\egv.dataaccessor\\EGV.DataAccessor.csproj",
+        "projectUniqueName": "C:\\Users\\van.nguyenngocgia\\OneDrive - NASHTECH\\Desktop\\EGV\\EGV.DataAccessor\\EGV.DataAccessor.csproj",
         "projectName": "EGV.DataAccessor",
-        "projectPath": "C:\\Users\\van.nguyenngocgia\\OneDrive - NASHTECH\\Desktop\\EGV\\egv.dataaccessor\\EGV.DataAccessor.csproj",
+        "projectPath": "C:\\Users\\van.nguyenngocgia\\OneDrive - NASHTECH\\Desktop\\EGV\\EGV.DataAccessor\\EGV.DataAccessor.csproj",
         "packagesPath": "C:\\Users\\van.nguyenngocgia\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\van.nguyenngocgia\\OneDrive - NASHTECH\\Desktop\\EGV\\egv.dataaccessor\\obj\\",
+        "outputPath": "C:\\Users\\van.nguyenngocgia\\OneDrive - NASHTECH\\Desktop\\EGV\\EGV.DataAccessor\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\van.nguyenngocgia\\AppData\\Roaming\\NuGet\\NuGet.Config"

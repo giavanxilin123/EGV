@@ -5,5 +5,6 @@ namespace EGV.DataAccessor.Entities
         public string CategoryID { get; set; }
         public string CategoryName { get; set; }
         public virtual List<Product> Products { get; set; }
+        public Boolean IsDeleted { get; set; }
     }
 }

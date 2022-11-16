@@ -9,22 +9,27 @@ namespace EGV.Business.Services
 {
     public class CategoryService : ICategoryService
     {
-        private readonly IBaseRepository<Category> _categoryRepository;
+        private readonly IUnitOfWork _unitOfWork;
         private IMapper _mapper;
         public CategoryService
         (
-            IBaseRepository<Category> categoryRepository,
+            IUnitOfWork unitOfWork,
             IMapper mapper
         )
         {
-            _categoryRepository = categoryRepository;
+            _unitOfWork = unitOfWork;
             _mapper = mapper;
         }
-        public async Task<Category> AddAsync(CategoryCreateDto categoryCreateDto){
+
+        public async Task<CategoryDto> AddAsync(CategoryCreateDto categoryCreateDto){
+            var categoryID = Generate.GenerateCategoryId(categoryCreateDto.CategoryName);
             Category category = _mapper.Map<Category>(categoryCreateDto);
-            category.CategoryID = Generate.GenerateCategoryId(categoryCreateDto.CategoryName);
-            await _categoryRepository.Add(category);
-            return category;
+            category.CategoryID = categoryID;
+            category.IsDeleted = false;
+            await _unitOfWork.Category.Add(category);
+            await _unitOfWork.SaveAsync();
+            CategoryDto categoryDto = _mapper.Map<CategoryDto>(category);
+            return categoryDto;
         }
     }
 }

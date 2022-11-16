@@ -92,3 +92,5 @@ C:\Users\van.nguyenngocgia\OneDrive - NASHTECH\Desktop\EGV\egv.presentation\bin\
 C:\Users\van.nguyenngocgia\OneDrive - NASHTECH\Desktop\EGV\egv.presentation\bin\Debug\net6.0\EGV.Business.pdb
 C:\Users\van.nguyenngocgia\OneDrive - NASHTECH\Desktop\EGV\egv.presentation\bin\Debug\net6.0\EGV.Contracts.pdb
 C:\Users\van.nguyenngocgia\OneDrive - NASHTECH\Desktop\EGV\egv.presentation\bin\Debug\net6.0\EGV.DataAccessor.pdb
+C:\Users\van.nguyenngocgia\OneDrive - NASHTECH\Desktop\EGV\egv.presentation\bin\Debug\net6.0\AutoMapper.dll
+C:\Users\van.nguyenngocgia\OneDrive - NASHTECH\Desktop\EGV\egv.presentation\bin\Debug\net6.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
