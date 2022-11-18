@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EGV.Presentation", "EGV.Pre
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EGV.Contracts", "EGV.Contracts\EGV.Contracts.csproj", "{6521E94F-660D-4D2A-AC04-FE5C5770BD6A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EGV.IdentityServer", "EGV.IdentityServer\EGV.IdentityServer.csproj", "{B19A9D5B-6EC9-4A32-8DAD-A180CC62FCB8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -36,5 +38,9 @@ Global
 		{6521E94F-660D-4D2A-AC04-FE5C5770BD6A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6521E94F-660D-4D2A-AC04-FE5C5770BD6A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6521E94F-660D-4D2A-AC04-FE5C5770BD6A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B19A9D5B-6EC9-4A32-8DAD-A180CC62FCB8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B19A9D5B-6EC9-4A32-8DAD-A180CC62FCB8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B19A9D5B-6EC9-4A32-8DAD-A180CC62FCB8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B19A9D5B-6EC9-4A32-8DAD-A180CC62FCB8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

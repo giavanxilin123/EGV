@@ -4,6 +4,7 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace EGV.Presentation.Controllers
 {
+    [Authorize]
     [ApiController]
     [Route("api/[controller]")]
     public class UserController : ControllerBase

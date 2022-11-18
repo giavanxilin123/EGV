@@ -1,9 +1,11 @@
 using EGV.Business.Interfaces;
 using EGV.Contracts.Dtos.Category;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace EGV.Presentation.Controllers
 {
+    [Authorize]
     [ApiController]
     [Route("api/[controller]")]
     public class CategoryController : ControllerBase
