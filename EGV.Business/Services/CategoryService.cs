@@ -31,5 +31,10 @@ namespace EGV.Business.Services
             CategoryDto categoryDto = _mapper.Map<CategoryDto>(category);
             return categoryDto;
         }
+
+        public async Task<List<CategoryDto>> GetAllAsync(){
+            var categories = await _unitOfWork.Category.GetAll();
+            return _mapper.Map<List<CategoryDto>>(categories);
+        }
     }
 }

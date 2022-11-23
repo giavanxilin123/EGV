@@ -1,3 +1,4 @@
+using EGV.DataAccessor.Data.Seeds;
 using EGV.DataAccessor.Entities;
 using EGV.DataAccessor.Entities.Configurations;
 using Microsoft.AspNetCore.Identity;
@@ -6,7 +7,7 @@ using Microsoft.EntityFrameworkCore;
 
 namespace EGV.DataAccessor.Data 
 {
-    public class ApplicationDbContext: IdentityDbContext<User, IdentityRole<int>, int> {
+    public class ApplicationDbContext: IdentityDbContext<User, IdentityRole<string>, string> {
         public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options)
             : base(options)
         {
@@ -19,34 +20,35 @@ namespace EGV.DataAccessor.Data
             builder.ApplyConfiguration(new UserConfiguration());
             builder.ApplyConfiguration(new ProductConfiguration());
             builder.ApplyConfiguration(new CategoryConfiguration());
-            builder.Entity<IdentityRole<int>>(entity =>
+            builder.Entity<IdentityRole<string>>(entity =>
             {
                 entity.ToTable(name: "Roles");
             });
-            builder.Entity<IdentityUserRole<int>>(entity =>
+            builder.Entity<IdentityUserRole<string>>(entity =>
             {
                 entity.ToTable("UserRoles").HasKey("UserId", "RoleId");
             });
 
-            builder.Entity<IdentityUserClaim<int>>(entity =>
+            builder.Entity<IdentityUserClaim<string>>(entity =>
             {
                 entity.ToTable("UserClaims");
             });
             
-            builder.Entity<IdentityUserLogin<int>>(entity =>
+            builder.Entity<IdentityUserLogin<string>>(entity =>
             {
                 entity.ToTable("UserLogins").HasKey("UserId");
             });
 
-            builder.Entity<IdentityRoleClaim<int>>(entity =>
+            builder.Entity<IdentityRoleClaim<string>>(entity =>
             {
                 entity.ToTable("RoleClaims");
             });
             
-            builder.Entity<IdentityUserToken<int>>(entity =>
+            builder.Entity<IdentityUserToken<string>>(entity =>
             {
                 entity.ToTable("UserTokens").HasKey("UserId");
             });
+            builder.SeedData();
         }
         
         public DbSet<Product> Products { get; set; }

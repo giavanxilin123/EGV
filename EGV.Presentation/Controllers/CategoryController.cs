@@ -22,5 +22,12 @@ namespace EGV.Presentation.Controllers
             var categoryAdd = await _categoryService.AddAsync(categoryCreateDto);
             return Ok(categoryAdd);
         }
+
+        [HttpGet]
+        public async Task<IActionResult> GetAll()
+        {
+            var category = await _categoryService.GetAllAsync();
+            return Ok(category);
+        }
     }
 }

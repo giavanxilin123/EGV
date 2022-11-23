@@ -1,4 +1,5 @@
-﻿using Duende.IdentityServer.Models;
+﻿using Duende.IdentityServer;
+using Duende.IdentityServer.Models;
 
 namespace EGV.IdentityServer;
 
@@ -15,40 +16,62 @@ public static class Config
         new ApiScope[]
         {
             new ApiScope("SampleAPI"),
-            // new ApiScope("scope2"),
         };
 
     public static IEnumerable<Client> Clients =>
         new Client[]
         {
-            // m2m client credentials flow client
-            // new Client
-            // {
-            //     ClientId = "m2m.client",
-            //     ClientName = "Client Credentials Client",
-            //     ClientSecrets = { new Secret("511536EF-F270-4058-80CA-1C89C192F69A".Sha256()) },
+            new Client
+            {
+                ClientId = "admin_web_app",
+                ClientName = "Admin Web App",
+                // ClientSecrets = { new Secret("secret".Sha256()) },
+                AllowedGrantTypes = GrantTypes.Code,
+                // 
+                RequirePkce = true,
+                RequireClientSecret = false,
+                AllowAccessTokensViaBrowser = true,
+                // AllowedGrantTypes =  new[] { 
+                //     GrantType.AuthorizationCode, 
+                //     GrantType.ResourceOwnerPassword // Add this to allow the client to use ROPC to authorize**
+                // },
 
-            //     AllowedGrantTypes = GrantTypes.ClientCredentials,
-            //     AllowedGrantTypes = GrantTypes.Code,
-                
+                AllowOfflineAccess = true, // Add this to receive the refresh token after login
 
-            //     AllowedScopes = { "scope1" }
-            // },
+                // where to redirect to after login
+                RedirectUris = { "http://localhost:3000/signin-oidc" },
+                // where to redirect to after logout
+                PostLogoutRedirectUris = { "http://localhost:3000" },
+                AllowedCorsOrigins= { "http://localhost:3000" },
+
+                AllowedScopes = new List<string>
+                {
+                    IdentityServerConstants.StandardScopes.OpenId,
+                    IdentityServerConstants.StandardScopes.Profile,
+                    "SampleAPI"
+                },
+            },
 
             // interactive client using code flow + pkce
             new Client
             {
-                ClientId = "interactive",
-                ClientSecrets = { new Secret("49C1A7E1-0C79-4A89-A3D6-A37998FB86B0".Sha256()) },
+                ClientId = "api_swagger",
+                ClientName = "Swagger UI for Sample API",
+                ClientSecrets = { new Secret("511536EF-F270-4058-80CA-1C89C192F69A".Sha256()) },
 
                 AllowedGrantTypes = GrantTypes.Code,
 
-                RedirectUris = { "https://localhost:44300/signin-oidc" },
-                FrontChannelLogoutUri = "https://localhost:44300/signout-oidc",
-                PostLogoutRedirectUris = { "https://localhost:44300/signout-callback-oidc" },
+                RedirectUris = { "https://localhost:7062/swagger/oauth2-redirect.html" },
+                // FrontChannelLogoutUri = "https://localhost:44300/signout-oidc",
+                // PostLogoutRedirectUris = { "https://localhost:44300/signout-callback-oidc" },
 
-                AllowOfflineAccess = true,
-                AllowedScopes = { "openid", "profile", "SampleAPI" }
+                // AllowOfflineAccess = true,
+                AllowedCorsOrigins = {"https://localhost:7062"},
+                // AllowedScopes = { "openid", "profile", "SampleAPI" }
+                AllowedScopes = new List<string>
+                {
+                    "SampleAPI"
+                }
             },
         };
 }

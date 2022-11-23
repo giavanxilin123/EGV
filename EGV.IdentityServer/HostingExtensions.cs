@@ -1,6 +1,7 @@
 using Duende.IdentityServer;
-using EGV.IdentityServer.Data;
-using EGV.IdentityServer.Models;
+using EGV.DataAccessor;
+using EGV.DataAccessor.Data;
+using EGV.DataAccessor.Entities;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using Serilog;
@@ -13,10 +14,9 @@ internal static class HostingExtensions
     {
         builder.Services.AddRazorPages();
 
-        builder.Services.AddDbContext<ApplicationDbContext>(options =>
-            options.UseSqlite(builder.Configuration.GetConnectionString("DefaultConnection")));
+        builder.Services.AddDataAccessorLayer(builder.Configuration);
 
-        builder.Services.AddIdentity<ApplicationUser, IdentityRole>()
+        builder.Services.AddIdentity<User, IdentityRole<string>>()
             .AddEntityFrameworkStores<ApplicationDbContext>()
             .AddDefaultTokenProviders();
 
@@ -34,7 +34,8 @@ internal static class HostingExtensions
             .AddInMemoryIdentityResources(Config.IdentityResources)
             .AddInMemoryApiScopes(Config.ApiScopes)
             .AddInMemoryClients(Config.Clients)
-            .AddAspNetIdentity<ApplicationUser>();
+            .AddAspNetIdentity<User>()
+            .AddResourceOwnerValidator<UserValidator>();
         
         builder.Services.AddAuthentication()
             .AddGoogle(options =>

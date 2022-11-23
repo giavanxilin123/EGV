@@ -2,12 +2,12 @@ using Duende.IdentityServer.Events;
 using Duende.IdentityServer.Extensions;
 using Duende.IdentityServer.Services;
 using IdentityModel;
-using EGV.IdentityServer.Models;
 using Microsoft.AspNetCore.Authentication;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
+using EGV.DataAccessor.Entities;
 
 namespace EGV.IdentityServer.Pages.Logout;
 
@@ -15,14 +15,14 @@ namespace EGV.IdentityServer.Pages.Logout;
 [AllowAnonymous]
 public class Index : PageModel
 {
-    private readonly SignInManager<ApplicationUser> _signInManager;
+    private readonly SignInManager<User> _signInManager;
     private readonly IIdentityServerInteractionService _interaction;
     private readonly IEventService _events;
 
     [BindProperty] 
     public string LogoutId { get; set; }
 
-    public Index(SignInManager<ApplicationUser> signInManager, IIdentityServerInteractionService interaction, IEventService events)
+    public Index(SignInManager<User> signInManager, IIdentityServerInteractionService interaction, IEventService events)
     {
         _signInManager = signInManager;
         _interaction = interaction;

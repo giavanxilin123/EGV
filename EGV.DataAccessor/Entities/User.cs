@@ -2,7 +2,7 @@ using Microsoft.AspNetCore.Identity;
 
 namespace EGV.DataAccessor.Entities
 {
-    public class User : IdentityUser<int>
+    public class User : IdentityUser<string>
     {
         public string FirstName { get; set; }
         public string LastName { get; set; }
