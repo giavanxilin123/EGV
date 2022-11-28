@@ -39,7 +39,7 @@ public static class Config
                 AllowOfflineAccess = true, // Add this to receive the refresh token after login
 
                 // where to redirect to after login
-                RedirectUris = { "http://localhost:3000/signin-oidc" },
+                RedirectUris = { "http://localhost:3000/auth" },
                 // where to redirect to after logout
                 PostLogoutRedirectUris = { "http://localhost:3000" },
                 AllowedCorsOrigins= { "http://localhost:3000" },

@@ -53,5 +53,7 @@ namespace EGV.DataAccessor.Data
         
         public DbSet<Product> Products { get; set; }
         public DbSet<Category> Categories { get; set; }
+        // public DbSet<Match> Match { get; set; }
+        // public DbSet<BettingOdds> BettingOdds { get; set; }
     }
 }

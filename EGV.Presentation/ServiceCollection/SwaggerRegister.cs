@@ -8,6 +8,7 @@ namespace EGV.Presentation.ServiceCollection
         {
             services.AddSwaggerGen(options =>
             {
+                //define oauth2 to gettoken
                 options.AddSecurityDefinition("oauth2", new OpenApiSecurityScheme
                 {
                     Type = SecuritySchemeType.OAuth2,
@@ -24,6 +25,7 @@ namespace EGV.Presentation.ServiceCollection
                         },
                     }
                 });
+                // set token to header, postman vẫn lấy đc
                 options.AddSecurityRequirement(new OpenApiSecurityRequirement
                 {
                     {

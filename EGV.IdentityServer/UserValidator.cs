@@ -40,7 +40,6 @@ namespace EGV.IdentityServer
                 // context set to Failure        
                 context.Result = new GrantValidationResult(
                         TokenRequestErrors.UnauthorizedClient, "Invalid Credentials");
-
             }
     }
 }
